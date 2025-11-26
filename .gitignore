@@ -1,0 +1,41 @@
+# -------------------------
+# Node / Next.js
+# -------------------------
+node_modules/
+.next/
+out/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-store/
+.eslintcache
+
+# -------------------------
+# Python / FastAPI
+# -------------------------
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# -------------------------
+# IDEs / OS
+# -------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Others
+# -------------------------
+*.bak
+*.swp

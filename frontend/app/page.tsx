@@ -21,7 +21,7 @@ export default function Home() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ goal }),
       })
-
+      console.log("API Base URL:", process.env.NEXT_PUBLIC_API_BASE)
       if (!res.ok) throw new Error("Failed to fetch API")
 
       const data = await res.json()
